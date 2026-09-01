@@ -43,14 +43,3 @@ focused validation screen.
 Raw FASTQs, count matrices, MAGeCK result tables, and other large or controlled
 files are not committed. The analysis code expects those files to remain on
 Sherlock/OAK or to be supplied through paths in `config/paths.example.env`.
-
-## Current limitations
-
-This first-pass repository preserves the existing analysis code rather than
-rewriting undocumented commands. Exact MAGeCK versions, full command lines,
-U-test parameters, sample-group definitions, and the original runtime
-environment must be confirmed from the copied code and run logs before claiming
-full computational reproducibility.
-
-A known source note states that `NEDD8` is duplicated in some genome-wide result
-tables because of inconsistent use of an underscore in the target name.
