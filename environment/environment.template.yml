@@ -1,0 +1,18 @@
+# Provisional environment only. Pin versions after confirming the original run.
+name: hipsc-ec-screen-analysis
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python
+  - jupyterlab
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - openpyxl
+  - mageck
+  - r-base
+  - r-tidyverse
+  - r-readxl
+  - r-ggrepel

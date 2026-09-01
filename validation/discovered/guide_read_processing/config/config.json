@@ -1,0 +1,17 @@
+{
+	"sample_sheet": "/oak/stanford/groups/engreitz/Users/chloemc/231023_GenomeWide/config/231031_Validation_SampleList.txt",
+	"fastqdir": "/oak/stanford/groups/engreitz/Users/chloemc/231023_GenomeWide/config/fastqtrimmed/",
+    "codedir": "/oak/stanford/groups/engreitz/Users/chloemc/231023_GenomeWide/config/crispri-flowfish/",
+    "replicate_keycols": "BioRep",
+    "experiment_keycols": "Bin",
+		"guide_index": "/oak/stanford/groups/engreitz/Users/chloemc/231023_GenomeWide/config/231031_Genome_Wide_Library.fa",
+    "design_file": "/oak/stanford/groups/engreitz/Users/chloemc/231023_GenomeWide/config/231031_Validation_Library.design.txt",
+    "min_guide_count_sum": 40,
+    "countOnly": "TRUE",
+    "ep_code_dir": "/home/groups/engreitz/Software/LanderLab-EP-Prediction/",
+    "sortparamsdir": "sortParams",
+    "qpcr": "/oak/stanford/groups/engreitz/Users/chloemc/231023_GenomeWide/config/qPCR_file.test.txt",
+    "cell_line": "THP1-Engreitz",
+    "genelist": "/oak/stanford/groups/engreitz/Users/chloemc/231023_GenomeWide/crispri-flowfish/resources/GeneList.txt",
+    "enhancer_list": "/oak/stanford/groups/engreitz/Projects/ABC/191216_ABC/ABC_out/THP1-Engreitz/Neighborhoods/EnhancerList.bed"
+}

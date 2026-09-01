@@ -1,0 +1,44 @@
+# Raw sequencing and large genomics files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.bed.gz
+*.gtf.gz
+*.tar
+*.tar.gz
+
+# Generated results and local data
+/data/
+/results/
+/output/
+/outputs/
+/figures/
+/logs/
+/tmp/
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*secret*
+*credential*
+
+# Python / R / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
